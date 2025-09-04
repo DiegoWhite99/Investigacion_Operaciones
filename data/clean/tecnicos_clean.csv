@@ -1,0 +1,7 @@
+Id_tecnico,nombre,skills,horario inicio,horario fin,capacidad_diaria_h,ubicación_base,horario_inicio,horario_fin,ubicacion_base
+T1,Carlos Rodriguez,"Hardware,Software,Sistemas operativos",08:00:00,17:30:00,8,zona norte,08:00:00,17:00:00,Zona Centro
+T2,Ana Gomez,"Redes,Seguridad informática,Soporte remoto",09:00:00,18:00:00,7,zona sur,08:00:00,17:00:00,Zona Centro
+T3,Luis Martinez,"Diagnóstico eléctrico,Cableado estructurado,Hardware",08:30:00,17:45:00,8,zona este,08:00:00,17:00:00,Zona Centro
+T4,Maria Hernandez,"Virtualización,Backup y recuperación,Sistemas operativos",08:00:00,17:30:00,8,zona oeste,08:00:00,17:00:00,Zona Centro
+T5,Jorge Perez,"Software,Soporte remoto,Redes",09:00:00,18:00:00,8,zona centro,08:00:00,17:00:00,Zona Centro
+T6,Sebastian Ospina,"Desarrollador .net, AWS,dockerts,kubernetes,Cableado estructurado",10:00:00,20:00:00,15,zona centro,08:00:00,17:00:00,Zona Centro

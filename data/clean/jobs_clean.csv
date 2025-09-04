@@ -1,0 +1,31 @@
+id_job,descripcion,duracion_horas,deadline,skill_requerida,prioridad,ubicacion
+J1,Cambio de disco duro,2,2025-09-10,hardware,Alta,Zona Norte
+J2,Actualización de antivirus,1,2025-09-08,software,Media,Zona Sur
+J3,Limpieza interna PC,3,2025-09-12,diagnóstico eléctrico,Baja,Zona Este
+J4,Instalación de sistema operativo,4,2025-09-15,sistemas operativos,Alta,Zona Oeste
+J5,Revisión de red,2,2025-09-09,redes,Media,Zona Centro
+J6,Configuración firewall,3,2025-09-14,seguridad informática,Alta,Zona Norte
+J7,Respaldar servidores,3,2025-09-13,backup y recuperación,Media,Zona Sur
+J8,Montaje de cableado,4,2025-09-16,cableado estructurado,Baja,Zona Este
+J9,Instalación de máquinas virtuales,5,2025-09-17,virtualización,Alta,Zona Oeste
+J10,Soporte remoto usuarios,2,2025-09-11,soporte remoto,Media,Zona Centro
+J11,Reparación de laptop,3,2025-09-12,hardware,Alta,Zona Norte
+J12,Instalación de Office,1,2025-09-09,software,Baja,Zona Sur
+J13,Diagnóstico de fallas,2,2025-09-14,diagnóstico eléctrico,Media,Zona Este
+J14,Actualización de Windows,3,2025-09-16,sistemas operativos,Alta,Zona Oeste
+J15,Configuración de router,2,2025-09-10,redes,Media,Zona Centro
+J16,Auditoría de seguridad,4,2025-09-15,seguridad informática,Alta,Zona Norte
+J17,Recuperación de datos,5,2025-09-18,backup y recuperación,Alta,Zona Sur
+J18,Instalación de puntos de red,3,2025-09-13,cableado estructurado,Media,Zona Este
+J19,Migración a nube,6,2025-09-19,virtualización,Alta,Zona Oeste
+J20,Soporte técnico presencial,2,2025-09-11,soporte remoto,Baja,Zona Centro
+J21,Reemplazo de memoria RAM,1,2025-09-10,hardware,Media,Zona Norte
+J22,Instalación de AutoCAD,3,2025-09-12,software,Alta,Zona Sur
+J23,Reparación de fuente de poder,2,2025-09-14,diagnóstico eléctrico,Media,Zona Este
+J24,Instalación de Linux,4,2025-09-17,sistemas operativos,Alta,Zona Oeste
+J25,Optimización de red,3,2025-09-15,redes,Media,Zona Centro
+J26,Test de penetración,5,2025-09-20,seguridad informática,Alta,Zona Norte
+J27,Backup incremental,2,2025-09-16,backup y recuperación,Baja,Zona Sur
+J28,Cableado de rack,4,2025-09-18,cableado estructurado,Media,Zona Este
+J29,Configuración de cluster,5,2025-09-19,virtualización,Alta,Zona Oeste
+J30,Capacitación remota,3,2025-09-17,soporte remoto,Media,Zona Centro
