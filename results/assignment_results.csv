@@ -1,0 +1,31 @@
+job_id,tecnico_id,duracion_horas,skill_requerida,Id_tecnico,nombre,capacidad_diaria_h
+J1,T1,2,hardware,T1,Carlos Rodriguez,8
+J4,T1,4,sistemas operativos,T1,Carlos Rodriguez,8
+J11,T1,3,hardware,T1,Carlos Rodriguez,8
+J14,T1,3,sistemas operativos,T1,Carlos Rodriguez,8
+J24,T1,4,sistemas operativos,T1,Carlos Rodriguez,8
+J6,T2,3,seguridad informática,T2,Ana Gomez,7
+J16,T2,4,seguridad informática,T2,Ana Gomez,7
+J25,T2,3,redes,T2,Ana Gomez,7
+J26,T2,5,seguridad informática,T2,Ana Gomez,7
+J3,T3,3,diagnóstico eléctrico,T3,Luis Martinez,8
+J13,T3,2,diagnóstico eléctrico,T3,Luis Martinez,8
+J18,T3,3,cableado estructurado,T3,Luis Martinez,8
+J21,T3,1,hardware,T3,Luis Martinez,8
+J23,T3,2,diagnóstico eléctrico,T3,Luis Martinez,8
+J28,T3,4,cableado estructurado,T3,Luis Martinez,8
+J9,T4,5,virtualización,T4,Maria Hernandez,8
+J17,T4,5,backup y recuperación,T4,Maria Hernandez,8
+J29,T4,5,virtualización,T4,Maria Hernandez,8
+J2,T5,1,software,T5,Jorge Perez,8
+J5,T5,2,redes,T5,Jorge Perez,8
+J10,T5,2,soporte remoto,T5,Jorge Perez,8
+J12,T5,1,software,T5,Jorge Perez,8
+J15,T5,2,redes,T5,Jorge Perez,8
+J20,T5,2,soporte remoto,T5,Jorge Perez,8
+J22,T5,3,software,T5,Jorge Perez,8
+J30,T5,3,soporte remoto,T5,Jorge Perez,8
+J7,T6,3,backup y recuperación,T6,Sebastian Ospina,15
+J8,T6,4,cableado estructurado,T6,Sebastian Ospina,15
+J19,T6,6,virtualización,T6,Sebastian Ospina,15
+J27,T6,2,backup y recuperación,T6,Sebastian Ospina,15
