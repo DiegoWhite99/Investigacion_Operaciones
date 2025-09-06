@@ -1,5 +1,5 @@
-Fecha ejecución: 2025-09-05 22:09:25.876553
-Tiempo ejecución: 0.12 segundos
+Fecha ejecución: 2025-09-05 22:27:05.507277
+Tiempo ejecución: 0.10 segundos
 Status: Optimal
 Valor objetivo: 16.00
 Trabajos asignados: 30

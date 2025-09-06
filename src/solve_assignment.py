@@ -1,5 +1,3 @@
-# Inicio fase 5 - versión robusta con columna normalizada
-
 import time
 from datetime import datetime
 import os
@@ -47,8 +45,9 @@ required_cols = {
     'habilidades': ['id_job', 'id_tecnico', 'compatible']
 }
 
+dataframes = {'jobs': jobs, 'tecnicos': tecnicos, 'habilidades': habilidades}
 for df_name, cols in required_cols.items():
-    missing = set(cols) - set(eval(df_name).columns)
+    missing = set(cols) - set(dataframes[df_name].columns)
     if missing:
         raise ValueError(f"Faltan columnas en {df_name}: {missing}")
 
@@ -123,7 +122,7 @@ resultados = []
 cargas_tecnicos = {}
 
 for t in T:
-    Carga_actual = 0
+    carga_actual = 0
     for j in J:
         if pulp.value(x[(j, t)]) == 1:
             skill = jobs.loc[jobs['id_job'] == j, 'skill_requerida'].values[0]
@@ -133,14 +132,17 @@ for t in T:
                 'duracion_horas': p[j],
                 'skill_requerida': skill
             })
-            Carga_actual += p[j]
-    cargas_tecnicos[t] = Carga_actual
+            carga_actual += p[j]
+    cargas_tecnicos[t] = carga_actual
 
 resultados_df = pd.DataFrame(resultados)
 
 # Merge con información de técnicos
-tecnicos_cols = ['id_tecnico', 'nombre', 'capacidad_diaria_h'] if 'nombre' in tecnicos.columns else [
-    'id_tecnico', 'capacidad_diaria_h']
+tecnicos_cols = (
+    ['id_tecnico', 'nombre', 'capacidad_diaria_h']
+    if 'nombre' in tecnicos.columns
+    else ['id_tecnico', 'capacidad_diaria_h']
+)
 resultados_df = resultados_df.merge(
     tecnicos[tecnicos_cols], left_on='tecnico_id', right_on='id_tecnico', how='left')
 
