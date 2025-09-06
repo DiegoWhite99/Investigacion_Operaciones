@@ -1,0 +1,31 @@
+job_id,descripcion,tecnico_id,dia,hora_inicio,duracion_horas,hora_fin,skill_requerida
+J1,Cambio de disco duro,T1,1,00:00,2.0,02:00,hardware
+J2,Actualización de antivirus,T5,1,00:00,1.0,01:00,software
+J3,Limpieza interna PC,T3,1,01:00,3.0,04:00,diagnóstico eléctrico
+J4,Instalación de sistema operativo,T1,2,01:00,4.0,05:00,sistemas operativos
+J5,Revisión de red,T5,1,02:00,2.0,04:00,redes
+J6,Configuración firewall,T2,2,01:00,3.0,04:00,seguridad informática
+J7,Respaldar servidores,T6,2,02:00,3.0,05:00,backup y recuperación
+J8,Montaje de cableado,T6,1,06:00,4.0,02:00,cableado estructurado
+J9,Instalación de máquinas virtuales,T4,2,02:00,5.0,07:00,virtualización
+J10,Soporte remoto usuarios,T5,1,06:00,2.0,00:00,soporte remoto
+J11,Reparación de laptop,T1,1,02:00,3.0,05:00,hardware
+J12,Instalación de Office,T5,1,01:00,1.0,02:00,software
+J13,Diagnóstico de fallas,T3,2,05:00,2.0,07:00,diagnóstico eléctrico
+J14,Actualización de Windows,T1,2,05:00,3.0,00:00,sistemas operativos
+J15,Configuración de router,T5,1,04:00,2.0,06:00,redes
+J16,Auditoría de seguridad,T2,1,05:00,4.0,01:00,seguridad informática
+J17,Recuperación de datos,T4,1,00:00,5.0,05:00,backup y recuperación
+J18,Instalación de puntos de red,T3,2,00:00,3.0,03:00,cableado estructurado
+J19,Migración a nube,T6,1,00:00,6.0,06:00,virtualización
+J20,Soporte técnico presencial,T5,2,00:00,2.0,02:00,soporte remoto
+J21,Reemplazo de memoria RAM,T3,1,00:00,1.0,01:00,hardware
+J22,Instalación de AutoCAD,T5,2,02:00,3.0,05:00,software
+J23,Reparación de fuente de poder,T3,2,03:00,2.0,05:00,diagnóstico eléctrico
+J24,Instalación de Linux,T1,1,05:00,4.0,01:00,sistemas operativos
+J25,Optimización de red,T2,2,04:00,3.0,07:00,redes
+J26,Test de penetración,T2,1,00:00,5.0,05:00,seguridad informática
+J27,Backup incremental,T6,2,05:00,2.0,07:00,backup y recuperación
+J28,Cableado de rack,T3,1,04:00,4.0,00:00,cableado estructurado
+J29,Configuración de cluster,T4,1,05:00,5.0,02:00,virtualización
+J30,Capacitación remota,T5,2,05:00,3.0,00:00,soporte remoto
