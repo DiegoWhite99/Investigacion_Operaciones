@@ -1,4 +1,4 @@
-job_id,tecnico_id,duracion_horas,skill_requerida,Id_tecnico,nombre,capacidad_diaria_h
+job_id,tecnico_id,duracion_horas,skill_requerida,id_tecnico,nombre,capacidad_diaria_h
 J1,T1,2,hardware,T1,Carlos Rodriguez,8
 J4,T1,4,sistemas operativos,T1,Carlos Rodriguez,8
 J11,T1,3,hardware,T1,Carlos Rodriguez,8
